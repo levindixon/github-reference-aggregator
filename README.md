@@ -1,5 +1,5 @@
-# github-reference-aggregator
-A Chrome extension that makes it easy to find all of an issue's references.
+# GitHub Reference Aggregator
+_A Chrome extension that makes it easy to find all of an issue's references._
 
 ## 🤔 Why?
 
