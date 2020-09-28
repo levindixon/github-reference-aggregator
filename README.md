@@ -3,13 +3,13 @@ A Chrome extension that makes it easy to find all of an issue's references.
 
 ## 🤔 Why?
 
-Sometimes finding issue references can be tough:
+Sometimes finding references to the issue you're currently viewing can be tough:
 
 ![Demo of challenges finding issue references](docs/sometimes-it-can-be-tough.gif)
 
 ## 😮 So what does this do to help?
 
-When an issue has been referenced, all of it's references will be aggregated at the bottom of it's description in a convenient little `<details>` block:
+When an issue has been referenced, all of its references will be aggregated at the bottom of its description in a convenient little `<details>` block:
 
 ![Demo of how this chrome extension aggregates issue references](docs/but-this-makes-it-easier.gif)
 
