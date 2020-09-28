@@ -10,7 +10,7 @@ const init = async () => {
 
   if (token === "") {
     return console.warn(
-      "Groam: Please specify a personal access token via the options page."
+      "GitHub Reference Aggregator: Please specify a personal access token via the options page."
     );
   }
 
@@ -70,11 +70,13 @@ const init = async () => {
 
     references = responseJson?.data?.repository?.issue?.timelineItems?.nodes;
   } catch (error) {
-    return console.error(`Groam: ${error.message}`);
+    return console.error(`GitHub Reference Aggregator: ${error.message}`);
   }
 
   if (references.length === 0) {
-    return console.info("Groam: No issue references found.");
+    return console.info(
+      "GitHub Reference Aggregator: No issue references found."
+    );
   }
 
   const linkedReferences = document.createElement("details");
