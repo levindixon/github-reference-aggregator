@@ -3,7 +3,7 @@ _A Chrome extension that makes it easy to find all of an issue's references._
 
 ## Installation
 
-[Add to Chrome](https://google.com)
+[Add to Chrome](https://google.com) _Pending review_
 
 After adding to Chrome you'll need to add a personal access token with the `repo` scope to GRA via its extension options.
 
