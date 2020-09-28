@@ -12,10 +12,14 @@ const saveOptions = () => {
   });
 };
 
-const restoreOptions = () =>
+const restoreOptions = () => {
+  const token = <HTMLInputElement>document.getElementById("token");
+
   chrome.storage.sync.get("token", (items) => {
     token.value = items.token;
   });
+};
 
 document.addEventListener("DOMContentLoaded", restoreOptions);
-document.getElementById("save").addEventListener("click", saveOptions);
+
+document.getElementById("save")?.addEventListener("click", saveOptions);

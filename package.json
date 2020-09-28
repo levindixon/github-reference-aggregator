@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch --mode=development",
-    "test": "eslint ./src --ext .ts",
-    "fix": "eslint ./src --fix --ext .ts"
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "eslint ./src --fix --ext .ts"
   },
   "repository": {
     "type": "git",

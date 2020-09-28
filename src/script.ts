@@ -5,7 +5,7 @@ const loadTokenFromChromeStorage = (): Promise<string> =>
     });
   });
 
-const init = async () => {
+const run = async () => {
   const token = await loadTokenFromChromeStorage();
 
   if (token === "") {
@@ -114,4 +114,4 @@ const init = async () => {
     .appendChild(linkedReferences);
 };
 
-init();
+run();
