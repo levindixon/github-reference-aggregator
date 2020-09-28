@@ -14,6 +14,12 @@ const run = async () => {
     );
   }
 
+  if (window.location.pathname.includes("/issues/new")) {
+    return console.info(
+      "GitHub Reference Aggregator: New issue creation, skipping reference check."
+    );
+  }
+
   const [
     blank,
     repoOwner,

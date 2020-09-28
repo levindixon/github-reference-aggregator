@@ -16,7 +16,7 @@ const restoreOptions = () => {
   const token = <HTMLInputElement>document.getElementById("token");
 
   chrome.storage.sync.get("token", (items) => {
-    token.value = items.token;
+    token.value = items.token || "";
   });
 };
 

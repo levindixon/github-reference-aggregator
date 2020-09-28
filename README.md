@@ -1,6 +1,14 @@
 # GitHub Reference Aggregator
 _A Chrome extension that makes it easy to find all of an issue's references._
 
+## Installation
+
+[Add to Chrome](https://google.com)
+
+After adding to Chrome you'll need to add a personal access token with the `repo` scope to GRA via its extension options.
+
+For more information on how to generate your token, please visit the [GitHub help docs](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
+
 ## 🤔 Why?
 
 Sometimes finding references to the issue you're currently viewing can be tough:
