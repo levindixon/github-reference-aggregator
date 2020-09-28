@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>GitHub Reference Aggregator Options</title>
+  <style>
+    body {
+      padding: 10px;
+      text-align: center;
+    }
+
+    #status {
+      height: 1.5em;
+      margin-bottom: .5em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p>
+    You'll need to <a href="https://github.com/settings/tokens">create a
+      person access token</a><br /> with the <code>repo</code> scope.
+  </p>
+
+  <div id="status"></div>
+
+  <label>
+    Personal Access Token:
+    <input type="text" id="token">
+  </label>
+
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+
+</body>
+
+</html>
